@@ -12,9 +12,12 @@ class Person {
     let surName: String?
     let phone: String
     
-    init(name: String, surName: String? = nil , phone: String) {
+    var image: Data?
+    
+    init(name: String, surName: String? = nil , phone: String, image: Data? = nil) {
         self.name = name
         self.surName = surName
         self.phone = phone
+        self.image = image
     }
 }
