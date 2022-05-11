@@ -15,6 +15,8 @@
 		E8E2A807282BE05400AC2901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E2A805282BE05400AC2901 /* LaunchScreen.storyboard */; };
 		E8E2A80F282BE0BE00AC2901 /* SoundBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2A80E282BE0BE00AC2901 /* SoundBar.swift */; };
 		E8E2A817282BE5EA00AC2901 /* SoundBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2A816282BE5EA00AC2901 /* SoundBarTests.swift */; };
+		E8E2A81E282BF78000AC2901 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2A81D282BF78000AC2901 /* PersonTests.swift */; };
+		E8E2A820282BF8A200AC2901 /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2A81F282BF8A200AC2901 /* Persone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		E8E2A80E282BE0BE00AC2901 /* SoundBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBar.swift; sourceTree = "<group>"; };
 		E8E2A814282BE5EA00AC2901 /* UnitTestinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E2A816282BE5EA00AC2901 /* SoundBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBarTests.swift; sourceTree = "<group>"; };
+		E8E2A81D282BF78000AC2901 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		E8E2A81F282BF8A200AC2901 /* Persone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				E8E2A7FC282BE05200AC2901 /* SceneDelegate.swift */,
 				E8E2A80E282BE0BE00AC2901 /* SoundBar.swift */,
 				E8E2A7FE282BE05200AC2901 /* ViewController.swift */,
+				E8E2A81F282BF8A200AC2901 /* Persone.swift */,
 				E8E2A800282BE05200AC2901 /* Main.storyboard */,
 				E8E2A803282BE05400AC2901 /* Assets.xcassets */,
 				E8E2A805282BE05400AC2901 /* LaunchScreen.storyboard */,
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E8E2A816282BE5EA00AC2901 /* SoundBarTests.swift */,
+				E8E2A81D282BF78000AC2901 /* PersonTests.swift */,
 			);
 			path = UnitTestinAppTests;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 				E8E2A7FF282BE05200AC2901 /* ViewController.swift in Sources */,
 				E8E2A80F282BE0BE00AC2901 /* SoundBar.swift in Sources */,
 				E8E2A7FB282BE05200AC2901 /* AppDelegate.swift in Sources */,
+				E8E2A820282BF8A200AC2901 /* Persone.swift in Sources */,
 				E8E2A7FD282BE05200AC2901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E2A81E282BF78000AC2901 /* PersonTests.swift in Sources */,
 				E8E2A817282BE5EA00AC2901 /* SoundBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
